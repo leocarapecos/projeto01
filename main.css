@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(180deg, #330867 0%, #30CFD0 100%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 0;
+    background-color: none;
+    color: aliceblue;
+    font-family: 'Josefin Sans';
+}
+
+.cabecalho h1{
+    font-size:30px;
+}
+
+.cabecalho-menu{
+    display: inline;
+    margin-left: 32px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    border-top: 0.4px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 48px;
+    justify-content: space-around;
+    background: #1e1e1e2d;
+
+}
+
+
+section img{
+
+    height: 559px;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+section h1{
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+section p{
+    font-family: 'Kanit';
+    font-weight: 400;
+    font-size: 24px;
+    color: aliceblue;
+    width: 577px;
+    height: 175px;
+    left: 1173px;
+    top: 251px;
+}
+
+.icone-lista img{
+    height: 50px;
+}
+
+.icone-lista li{
+    display: inline;
+    margin-left: 5px;
+    align-items: center;
+    position: relative;
+    width: 62px;
+    right: 500px;
+    top: 100px;
+
+}
+
+
+section h2{
+    font-family: 'Josefin Sans';
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+section h3{
+    font-family: 'Kanit';
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+
+textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer
+}
+
+form button:hover{
+    background-color: #26459b;
+}
+
+input:focus,textarea:focus{
+    outline-color: #182c61;
+}
+
+footer{
+    background-color: #182c61;
+    color:#ecf0f1;
+    padding: 16px 0;
+
+}
